@@ -679,11 +679,14 @@ body > footer .copyrights {
   padding: 0;
   text-align: center;
   margin-top: 33px;
+  
 }
 
 @media only screen and (min-width: 991px) {
   .header.sticked .site-main-menu li {
     margin-top: 13px;
+    
+   
   }
 }
 
@@ -695,13 +698,14 @@ body > footer .copyrights {
   margin: 0 20px;
   text-align: center;
   color: #49515d;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 400;
   position: relative;
   text-decoration: none;
   outline: none;
   opacity: 0.6;
+  
 }
 
 .site-main-menu li:last-child a {
@@ -730,6 +734,7 @@ body > footer .copyrights {
   -o-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out;
+  
 }
 
 .site-main-menu li a:hover:after,
@@ -739,7 +744,7 @@ body > footer .copyrights {
 
 .menu-icon {
   display: block;
-  font-size: 21px;
+  font-size: 30px;
   margin-bottom: 3px;
   text-align: center;
 }
@@ -765,7 +770,68 @@ body > footer .copyrights {
 }
 /* /Mobile menu toggle */
 
+@media (max-width: 900px){
 
+  .site-main-menu li a,
+.site-main-menu li a:hover {
+  display: block;
+  position: relative;
+  padding: 8px 0;
+  margin: 0 20px;
+  text-align: center;
+  color: #49515d;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  opacity: 0.6;
+  
+}
+
+.site-main-menu li:last-child a {
+  margin-right: 0;
+}
+
+.site-main-menu li a:hover,
+.site-main-menu li.active a {
+  background-color: transparent;
+  opacity: 1;
+}
+
+.site-main-menu li a:after {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 0;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #1E90FF;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  
+}
+
+.site-main-menu li a:hover:after,
+.site-main-menu li.active a:after {
+  width: 25px;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+}
 
 
 /* ============================================================================= 
