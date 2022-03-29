@@ -770,7 +770,7 @@ body > footer .copyrights {
 }
 /* /Mobile menu toggle */
 
-@media (max-width: 900px){
+@media only screen and (max-width: 900px){
 
   .site-main-menu li a,
 .site-main-menu li a:hover {
